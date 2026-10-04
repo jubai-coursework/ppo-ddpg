@@ -1,0 +1,40 @@
+D:\conda_base\envs\rl_course\Lib\site-packages\pygame\pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+Environment: LunarLanderContinuous-v3
+State dim: 8, Action dim: 2
+Action range: [-1.0, 1.0]
+Device: cpu
+
+Starting DDPG training for 1000 episodes...
+Config: buffer_size=200000, batch_size=256
+        actor_lr=0.0001, critic_lr=0.001
+        warmup_steps=5000, noise_std=0.1
+Episode 10/1000 | Reward: -476.12 | Avg(10): -258.98 | Steps: 1201 | Buffer: 1201
+Episode 20/1000 | Reward: -442.52 | Avg(10): -224.85 | Steps: 2347 | Buffer: 2347
+Episode 30/1000 | Reward: -132.80 | Avg(10): -257.38 | Steps: 3716 | Buffer: 3716
+Episode 40/1000 | Reward: -136.85 | Avg(10): -228.39 | Steps: 4622 | Buffer: 4622
+Episode 50/1000 | Reward: -195.18 | Avg(10): -171.00 | Steps: 6721 | Buffer: 6721
+Episode 60/1000 | Reward: -259.22 | Avg(10): -198.83 | Steps: 11005 | Buffer: 11005
+Episode 70/1000 | Reward: -158.21 | Avg(10): -151.25 | Steps: 13745 | Buffer: 13745
+Episode 80/1000 | Reward: 12.86 | Avg(10): -97.83 | Steps: 21461 | Buffer: 21461
+Episode 90/1000 | Reward: -176.71 | Avg(10): -250.68 | Steps: 26128 | Buffer: 26128
+Episode 100/1000 | Reward: 18.30 | Avg(10): -82.13 | Steps: 33740 | Buffer: 33740
+Episode 110/1000 | Reward: -67.39 | Avg(10): -73.09 | Steps: 41921 | Buffer: 41921
+Episode 120/1000 | Reward: -31.65 | Avg(10): -64.50 | Steps: 47350 | Buffer: 47350
+Episode 130/1000 | Reward: -5.78 | Avg(10): -32.95 | Steps: 55605 | Buffer: 55605
+Episode 140/1000 | Reward: 6.71 | Avg(10): -6.72 | Steps: 58654 | Buffer: 58654
+Episode 150/1000 | Reward: 17.99 | Avg(10): -44.93 | Steps: 62455 | Buffer: 62455
+Episode 160/1000 | Reward: 12.04 | Avg(10): -59.56 | Steps: 68886 | Buffer: 68886
+Episode 170/1000 | Reward: -146.14 | Avg(10): -153.20 | Steps: 75474 | Buffer: 75474
+Episode 180/1000 | Reward: -25.00 | Avg(10): -147.07 | Steps: 81277 | Buffer: 81277
+Episode 190/1000 | Reward: -272.48 | Avg(10): -154.37 | Steps: 86385 | Buffer: 86385
+Episode 200/1000 | Reward: -68.91 | Avg(10): -170.15 | Steps: 88827 | Buffer: 88827
+Episode 210/1000 | Reward: -30.58 | Avg(10): -41.65 | Steps: 93829 | Buffer: 93829
+Episode 220/1000 | Reward: 18.20 | Avg(10): 33.87 | Steps: 101949 | Buffer: 101949
+Episode 230/1000 | Reward: -15.95 | Avg(10): -75.45 | Steps: 109667 | Buffer: 109667
+Episode 240/1000 | Reward: 43.30 | Avg(10): -7.03 | Steps: 113388 | Buffer: 113388
+Episode 250/1000 | Reward: 13.65 | Avg(10): 16.04 | Steps: 114902 | Buffer: 114902
+Episode 260/1000 | Reward: -24.20 | Avg(10): -63.52 | Steps: 116002 | Buffer: 116002
+Episode 270/1000 | Reward: -23.40 | Avg(10): -46.19 | Steps: 117997 | Buffer: 117997
+Episode 280/1000 | Reward: -150.19 | Avg(10): -70.35 | Steps: 119216 | Buffer: 119216
+Episode 290/1000 | Reward: -224.61 | Avg(10): -68.22 | Steps: 123845 | Buffer: 123845

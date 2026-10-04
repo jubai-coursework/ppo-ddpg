@@ -1,0 +1,118 @@
+D:\conda_base\envs\rl_course\Lib\site-packages\pygame\pkgdata.py:25: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_stream, resource_exists
+Environment: LunarLanderContinuous-v3
+State dim: 8, Action dim: 2
+Action range: [-1.0, 1.0]
+Device: cpu
+
+Starting PPO training for 1000 episodes...
+Config: rollout_steps=2048, batch_size=256, lr=0.0003
+Episode 10/1000 | Reward: -181.38 | Avg(10): -335.41 | Steps: 1174
+Episode 20/1000 | Reward: -270.99 | Avg(10): -321.09 | Steps: 2299
+Episode 30/1000 | Reward: -345.60 | Avg(10): -465.92 | Steps: 3367
+Episode 40/1000 | Reward: -75.27 | Avg(10): -273.59 | Steps: 4438
+Episode 50/1000 | Reward: -617.56 | Avg(10): -332.53 | Steps: 5581
+Episode 60/1000 | Reward: -515.16 | Avg(10): -355.16 | Steps: 6832
+Episode 70/1000 | Reward: -462.68 | Avg(10): -320.35 | Steps: 7881
+Episode 80/1000 | Reward: -503.37 | Avg(10): -294.25 | Steps: 9170
+Episode 90/1000 | Reward: -217.79 | Avg(10): -266.20 | Steps: 10548
+Episode 100/1000 | Reward: -338.78 | Avg(10): -245.86 | Steps: 11961
+Episode 110/1000 | Reward: -74.12 | Avg(10): -304.50 | Steps: 13226
+Episode 120/1000 | Reward: -73.55 | Avg(10): -244.72 | Steps: 14365
+Episode 130/1000 | Reward: -353.21 | Avg(10): -372.03 | Steps: 15782
+Episode 140/1000 | Reward: -67.29 | Avg(10): -274.14 | Steps: 17152
+Episode 150/1000 | Reward: -350.15 | Avg(10): -307.11 | Steps: 18640
+Episode 160/1000 | Reward: -291.81 | Avg(10): -364.88 | Steps: 20542
+Episode 170/1000 | Reward: -619.00 | Avg(10): -356.91 | Steps: 22047
+Episode 180/1000 | Reward: -279.91 | Avg(10): -311.89 | Steps: 23728
+Episode 190/1000 | Reward: -448.15 | Avg(10): -376.75 | Steps: 25635
+Episode 200/1000 | Reward: -489.54 | Avg(10): -430.09 | Steps: 27293
+Episode 210/1000 | Reward: -158.24 | Avg(10): -312.07 | Steps: 28782
+Episode 220/1000 | Reward: -409.21 | Avg(10): -242.85 | Steps: 30439
+Episode 230/1000 | Reward: -66.47 | Avg(10): -371.83 | Steps: 32434
+Episode 240/1000 | Reward: -105.77 | Avg(10): -273.16 | Steps: 34387
+Episode 250/1000 | Reward: -359.65 | Avg(10): -295.95 | Steps: 35738
+Episode 260/1000 | Reward: -263.30 | Avg(10): -180.94 | Steps: 36927
+Episode 270/1000 | Reward: 12.01 | Avg(10): -213.79 | Steps: 38358
+Episode 280/1000 | Reward: -139.41 | Avg(10): -212.67 | Steps: 39791
+Episode 290/1000 | Reward: -122.35 | Avg(10): -175.36 | Steps: 40959
+Episode 300/1000 | Reward: -20.75 | Avg(10): -102.65 | Steps: 42411
+Episode 310/1000 | Reward: -329.37 | Avg(10): -96.37 | Steps: 44223
+Episode 320/1000 | Reward: -98.20 | Avg(10): -134.03 | Steps: 45576
+Episode 330/1000 | Reward: -87.11 | Avg(10): -128.94 | Steps: 46905
+Episode 340/1000 | Reward: -126.22 | Avg(10): -100.72 | Steps: 48140
+Episode 350/1000 | Reward: -11.05 | Avg(10): -120.77 | Steps: 49483
+Episode 360/1000 | Reward: -15.82 | Avg(10): -83.62 | Steps: 50739
+Episode 370/1000 | Reward: -142.87 | Avg(10): -40.56 | Steps: 52029
+Episode 380/1000 | Reward: -99.20 | Avg(10): -127.31 | Steps: 53563
+Episode 390/1000 | Reward: -96.37 | Avg(10): -63.59 | Steps: 55052
+Episode 400/1000 | Reward: -149.16 | Avg(10): -86.86 | Steps: 57488
+Episode 410/1000 | Reward: -26.50 | Avg(10): -81.67 | Steps: 59307
+Episode 420/1000 | Reward: -56.85 | Avg(10): -109.69 | Steps: 60676
+Episode 430/1000 | Reward: -75.57 | Avg(10): -83.57 | Steps: 62353
+Episode 440/1000 | Reward: -36.88 | Avg(10): -48.97 | Steps: 64180
+Episode 450/1000 | Reward: 14.57 | Avg(10): -65.50 | Steps: 68532
+Episode 460/1000 | Reward: 44.13 | Avg(10): -64.73 | Steps: 70066
+Episode 470/1000 | Reward: -91.35 | Avg(10): -98.93 | Steps: 73084
+Episode 480/1000 | Reward: -87.92 | Avg(10): -67.52 | Steps: 75950
+Episode 490/1000 | Reward: -40.29 | Avg(10): -17.80 | Steps: 78504
+Episode 500/1000 | Reward: -12.85 | Avg(10): -7.24 | Steps: 82740
+Episode 510/1000 | Reward: -105.11 | Avg(10): -16.54 | Steps: 87287
+Episode 520/1000 | Reward: 29.65 | Avg(10): -21.87 | Steps: 93051
+Episode 530/1000 | Reward: -10.01 | Avg(10): -36.38 | Steps: 97799
+Episode 540/1000 | Reward: 61.36 | Avg(10): -32.38 | Steps: 103009
+Episode 550/1000 | Reward: 60.86 | Avg(10): 7.84 | Steps: 107344
+Episode 560/1000 | Reward: -58.41 | Avg(10): -22.04 | Steps: 111675
+Episode 570/1000 | Reward: -21.71 | Avg(10): 25.09 | Steps: 116674
+Episode 580/1000 | Reward: -52.18 | Avg(10): -16.69 | Steps: 121153
+Episode 590/1000 | Reward: 124.42 | Avg(10): 40.08 | Steps: 128684
+Episode 600/1000 | Reward: 20.11 | Avg(10): 37.32 | Steps: 135224
+Episode 610/1000 | Reward: -67.19 | Avg(10): -7.25 | Steps: 143763
+Episode 620/1000 | Reward: -96.50 | Avg(10): 5.66 | Steps: 153763
+Episode 630/1000 | Reward: 122.41 | Avg(10): 57.58 | Steps: 163763
+Episode 640/1000 | Reward: -26.45 | Avg(10): 45.97 | Steps: 172568
+Episode 650/1000 | Reward: 45.55 | Avg(10): 80.47 | Steps: 182568
+Episode 660/1000 | Reward: 98.31 | Avg(10): 91.53 | Steps: 192568
+Episode 670/1000 | Reward: 122.64 | Avg(10): 121.84 | Steps: 202568
+Episode 680/1000 | Reward: 110.12 | Avg(10): 110.73 | Steps: 211834
+Episode 690/1000 | Reward: 79.52 | Avg(10): 83.20 | Steps: 221834
+Episode 700/1000 | Reward: 108.64 | Avg(10): 118.05 | Steps: 231834
+Episode 710/1000 | Reward: 84.33 | Avg(10): 124.31 | Steps: 240333
+Episode 720/1000 | Reward: 161.29 | Avg(10): 132.00 | Steps: 250333
+Episode 730/1000 | Reward: 13.57 | Avg(10): 101.11 | Steps: 257912
+Episode 740/1000 | Reward: 9.59 | Avg(10): 112.49 | Steps: 266292
+Episode 750/1000 | Reward: 84.30 | Avg(10): 128.53 | Steps: 276292
+Episode 760/1000 | Reward: 73.94 | Avg(10): 102.38 | Steps: 283800
+Episode 770/1000 | Reward: 4.84 | Avg(10): 121.76 | Steps: 292369
+Episode 780/1000 | Reward: 148.51 | Avg(10): 132.31 | Steps: 301127
+Episode 790/1000 | Reward: 138.28 | Avg(10): 142.62 | Steps: 310375
+Episode 800/1000 | Reward: 165.89 | Avg(10): 143.06 | Steps: 320375
+Episode 810/1000 | Reward: 183.68 | Avg(10): 140.89 | Steps: 329517
+Episode 820/1000 | Reward: 148.34 | Avg(10): 137.35 | Steps: 338109
+Episode 830/1000 | Reward: 245.59 | Avg(10): 153.25 | Steps: 347083
+Episode 840/1000 | Reward: 179.84 | Avg(10): 70.24 | Steps: 352094
+Episode 850/1000 | Reward: 158.87 | Avg(10): 116.94 | Steps: 359503
+Episode 860/1000 | Reward: 120.08 | Avg(10): 132.58 | Steps: 368777
+Episode 870/1000 | Reward: 152.68 | Avg(10): 108.81 | Steps: 376137
+Episode 880/1000 | Reward: 170.43 | Avg(10): 146.49 | Steps: 384838
+Episode 890/1000 | Reward: 150.00 | Avg(10): 157.49 | Steps: 394838
+Episode 900/1000 | Reward: 142.13 | Avg(10): 117.43 | Steps: 401978
+Episode 910/1000 | Reward: 163.89 | Avg(10): 126.29 | Steps: 408488
+Episode 920/1000 | Reward: 174.78 | Avg(10): 127.92 | Steps: 416695
+Episode 930/1000 | Reward: 175.80 | Avg(10): 150.77 | Steps: 425138
+Episode 940/1000 | Reward: 155.94 | Avg(10): 143.00 | Steps: 434226
+Episode 950/1000 | Reward: 153.25 | Avg(10): 122.75 | Steps: 442549
+Episode 960/1000 | Reward: 181.95 | Avg(10): 148.16 | Steps: 451913
+Episode 970/1000 | Reward: 153.00 | Avg(10): 128.31 | Steps: 460283
+Episode 980/1000 | Reward: 138.31 | Avg(10): 161.02 | Steps: 468664
+Episode 990/1000 | Reward: 165.25 | Avg(10): 109.03 | Steps: 475201
+Episode 1000/1000 | Reward: 154.57 | Avg(10): 133.46 | Steps: 480271
+
+Training completed. Total steps: 480271
+Training curve saved to outputs\ppo\train_curve.png
+
+Running 10-episode evaluation...
+Evaluation: Avg Reward = 239.02
+Individual rewards: ['302.66', '70.38', '260.24', '233.40', '237.80', '240.47', '271.02', '241.48', '287.88', '244.88']
+
+All outputs saved to outputs\ppo
